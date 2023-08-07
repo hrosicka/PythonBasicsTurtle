@@ -64,33 +64,5 @@ def main():
     # zavření okna
     exitonclick()
 
-'''
-    # vesnice má 100 domečků
-    for _ in range(100):
-
-        # náhodně určená poloha domku z intervalu
-        x = randint(-300, 300)
-        y = randint(-300, 300)
-        # tužka nahoru
-        t.penup()
-        # přesun na pozici
-        t.goto(x, y)
-        # tužka dolů
-        t.pendown()
-
-        # náhodně vygenerovaná barva fasády
-        barva = randrange(0,10)/10, randrange(0,10)/10, randrange(0,10)/10
-
-        # domky blíže k centru mohou být větší, na periferii menší
-        if math.sqrt(pow(x,2) + pow(y,2)) < 200:
-            velikost = randint(8,12)
-        else:
-            velikost = randint(4,8)
-
-        # zavoláme funkci na vykreslení domečku
-        domecek(t, velikost, barva)
-  '''  
-    
-
 if __name__ == "__main__":
     main()

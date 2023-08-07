@@ -1,72 +1,70 @@
 # nakreslí vesnici pomocí knihovny turtle
   
-from turtle import exitonclick, bgcolor, screensize, title
+from turtle import exitonclick, bgcolor, screensize, title, colormode
 import turtle
 from random import randint, randrange
 import math
 
-def domecek(t, rozmer, fasada):
+def dlazdice(t, strana, barva):
 
-    t.pencolor(fasada)
-    t.fillcolor(fasada)
+    t.pencolor("black")
+    t.fillcolor(barva)
     t.begin_fill()
-    for _ in range(4):
-        t.forward(8*rozmer)
-        t.right(90)
+    t.left(60)
+    for _ in range(6):
+        t.forward(strana)
+        t.right(60)
     t.end_fill()
 
     t.penup()
-    t.backward(rozmer)
+    t.backward(0)
     t.pendown()
-
-    t.pencolor("darkred")
-    t.fillcolor("red")
-    t.begin_fill()
-    for _ in range(3):
-        t.forward(10*rozmer)
-        t.left(120)
-    t.end_fill()
-
-    t.penup()
-    t.forward(3*rozmer)
-    t.right(90)
-    t.forward(2*rozmer)
-
-    t.pendown()
-
-    t.pencolor("blue")
-    t.fillcolor("lightblue")
-    t.begin_fill()
-    for _ in range(4):
-        t.forward(4*rozmer)
-        t.left(90)
-    t.end_fill()
-
-    t.right(-90)
-
-    # želva se otiskne do rohu okna
-    t.stamp()
 
 def main(): 
 
     # barva pozadí okna
     bgcolor("black")
     # velikost okna
-    screensize(250,250)
     # název okna
-    title("Levitujici vesnice")
+    title("Dlazdice")
+
+    # format barev
+    colormode(255)
 
     # Vytvoříme novou želvu
     t = turtle.Turtle()
 
-    # tvarem želvy je želva
     t.shape("turtle")
+
+    
     # nejrychlejší želva = velmi rychlé kreslení
     t.speed(0)
     # velikost pera = slabý obrys
     t.pensize(2)
 
+    strana = 30
+    t.forward(strana)
+    t.left(60)
+    t.forward(strana)
+    t.right(120)
 
+    for _ in range(6):
+        for _ in range(6):
+            # nahodne odstiny ruzove
+            barva = (randint(155, 255), randint(0, 55), randint(55, 155))
+            dlazdice(t, strana, barva)
+            t.penup()
+            t.right(60)
+            t.forward(2*strana)
+            t.pendown()
+            t.right(60)
+        t.left(60)
+        t.forward(strana)
+
+    # zavření okna
+    exitonclick()
+
+'''
     # vesnice má 100 domečků
     for _ in range(100):
 
@@ -91,9 +89,8 @@ def main():
 
         # zavoláme funkci na vykreslení domečku
         domecek(t, velikost, barva)
+  '''  
     
-    # zavření okna
-    exitonclick()
 
 if __name__ == "__main__":
     main()

@@ -10,3 +10,7 @@ Drawing using Python Turtle
 - random houses - random place, size and color
 - black background
 ![Village drawing by turtle](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/LevitatingVillage.png)
+
+### pavucina.py
+- spider web - random color of nodes
+- black background

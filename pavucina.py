@@ -1,7 +1,13 @@
 # barevná (random) pavučina pomocí knihovny turtle
 import turtle
-from turtle import bgcolor, exitonclick
+from turtle import bgcolor, exitonclick, title
 from random import randrange
+import tkinter
+
+title("Spider Web")
+
+img = tkinter.Image("photo", file="turtle_ico.png")
+turtle._Screen._root.iconphoto(True, img)
 
 # Vytvoříme novou želvu
 t = turtle.Turtle()

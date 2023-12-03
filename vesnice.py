@@ -55,7 +55,7 @@ def main():
     # velikost okna
     screensize(250,250)
     # název okna
-    title("Levitating village")
+    title("Levitating Village")
 
     img = tkinter.Image("photo", file="turtle_ico.png")
     turtle._Screen._root.iconphoto(True, img)

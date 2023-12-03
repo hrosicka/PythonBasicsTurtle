@@ -14,3 +14,5 @@ Drawing using Python Turtle
 ### pavucina.py
 - spider web - random color of nodes
 - black background
+![Village drawing by turtle](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/SpiderWeb.png)
+

@@ -5,7 +5,6 @@ import turtle
 from random import randint
 # ze souboru vesnice je potřeba funkce domecek
 from vesnice import *
-
 import tkinter
 
 def posun(t, strana):

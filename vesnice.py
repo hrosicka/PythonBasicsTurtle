@@ -4,6 +4,7 @@ from turtle import exitonclick, bgcolor, screensize, title
 import turtle
 from random import randint, randrange
 import math
+import tkinter
 
 def domecek(t, rozmer, fasada):
 
@@ -54,7 +55,10 @@ def main():
     # velikost okna
     screensize(250,250)
     # název okna
-    title("Levitujici vesnice")
+    title("Levitating village")
+
+    img = tkinter.Image("photo", file="turtle_ico.png")
+    turtle._Screen._root.iconphoto(True, img)
 
     # Vytvoříme novou želvu
     t = turtle.Turtle()

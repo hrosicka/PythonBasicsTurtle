@@ -6,6 +6,8 @@ from random import randint
 # ze souboru vesnice je potřeba funkce domecek
 from vesnice import *
 
+import tkinter
+
 def posun(t, strana):
 
     t.penup()
@@ -21,11 +23,15 @@ def main():
     # název okna
     title("Crazy village")
 
+    img = tkinter.Image("photo", file="turtle_ico.png")
+    turtle._Screen._root.iconphoto(True, img)
+
     # formát barev
     colormode(255)
 
     # Vytvoříme novou želvu
     t = turtle.Turtle()
+
 
     # Želva vypadá jako želva
     t.shape("turtle")

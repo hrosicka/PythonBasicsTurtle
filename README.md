@@ -17,7 +17,9 @@ Drawing using Python Turtle
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/SpiderWeb.png)
 
 ### kytice.py
-- flower - you can choose size of flower and five colors - everythinks depends on you
+- flower - you can choose size of flower and five colors - everything depends on you
 - black background
+#### examples
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/Flower.png)
+![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/Flower2.png)
 

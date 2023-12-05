@@ -1,7 +1,9 @@
 # nakreslí květinu pomocí knihovny turtle
   
-from turtle import exitonclick, bgcolor
+from turtle import exitonclick, bgcolor, title
 import turtle
+import tkinter
+
 
 
 # jedny okvětní lísky na květině
@@ -43,6 +45,11 @@ def main():
     # barva pozadí okna
     bgcolor("black")
 
+    title("Flower")
+
+    img = tkinter.Image("photo", file="turtle_ico.png")
+    turtle._Screen._root.iconphoto(True, img)   
+
     # Vytvoříme novou želvu
     t = turtle.Turtle()
 
@@ -51,7 +58,7 @@ def main():
     # velikost pera = slabý obrys
     t.pensize(1)
     
-    print("KYTICE")
+    print("Flower")
     print("------")
     # poloměr jednoho květu
     s = int(input("Zadej poloměr jednoho květu, ze kterých se bude skládat kytice: "))

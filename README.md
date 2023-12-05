@@ -16,3 +16,8 @@ Drawing using Python Turtle
 - black background
 ![Village drawing by turtle](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/SpiderWeb.png)
 
+### kytice.py
+- flower - you can choose size of flower and five colors - everythinks depends on you
+- black background
+![Village drawing by turtle](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/Flower.png)
+

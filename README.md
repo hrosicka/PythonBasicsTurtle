@@ -25,8 +25,8 @@ Drawing using Python Turtle
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/Flower3.png)
 
 ## fialovyornament.py
-![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/FialovyRrnament.png)
+![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/FialovyOrnament.png)
 
 ## modrozelenyornament.py
-![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/ModrozelenyOrnament.py.png)
+![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/ModrozelenyOrnament.png)
 

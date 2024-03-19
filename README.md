@@ -1,5 +1,5 @@
 # PythonBasicsTurtle
-Drawing using Python Turtle
+Dive into a collection of Python Turtle codes that bring your imagination to life on screen. From quaint villages and colorful spider webs to mesmerizing spiral ornaments and enchanting flowers.
 
 ## crazyvilllage.py
 It provides instructions on how to use the Crazy Village application, which draws a village using the Turtle graphics library.

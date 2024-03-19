@@ -37,8 +37,26 @@ The application uses the Turtle graphics library to draw the spider web. The cod
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/SpiderWeb.png)
 
 ## kytice.py
-- flower - you can choose size of flower and five colors - everything depends on you
-- black background
+It provides instructions on how to use the Flower application, which draws a flower using the Turtle graphics library.
+### Application Window
+The application window displays a flower with colorful petals. The background of the window is black, and the title of the window is "Flower".
+### How It Works
+The application uses the Turtle graphics library to draw the flower. The code defines two functions:
+- **okvetniListky(t, s, count, col1, col2):** This function draws a layer of petals. It takes five arguments:
+  - **t:** The Turtle object that will be used to draw the petals.
+  - **s:** The size of the petals.
+  - **count:** The number of petals in the layer.
+  - **col1:** The fill color of the petals.
+  - **col2:** The outline color of the petals.
+- **kvetina(t, s, col1, col2, col3, col4):** This function draws a flower. It takes six arguments:
+  - **t:** The Turtle object that will be used to draw the flower.
+  - **s:** The size of the flower.
+  - **col1:** The color of the outer petals.
+  - **col2:** The alternate color of the outer petals.
+  - **col3:** The color of the middle petals.
+  - **col4:** The color of the center of the flower.
+The code then creates a new Turtle object and sets its properties, such as speed and pen size. The code then calls the kvetina function to draw the flower.
+
 #### examples
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/Flower.png)
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/Flower2.png)

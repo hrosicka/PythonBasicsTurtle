@@ -28,8 +28,12 @@ The code then creates a new Turtle object and sets its properties, such as shape
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/LevitatingVillage.png)
 
 ## pavucina.py
-- spider web - random color of nodes
-- black background
+It provides instructions on how to use the Colorful Spider Web application, which draws a colorful spider web using the Turtle graphics library.
+### Application Window
+The application window displays a colorful spider web with intricate patterns. The background of the window is black, and the title of the window is "Spider Web".
+### How It Works
+The application uses the Turtle graphics library to draw the spider web. The code uses a for loop to draw 100 nodes, each of which consists of 3 loops. Each loop draws 4 edges, and the color of each edge is randomly generated. The distance between nodes increases as the web expands, creating a spiral pattern. The background of the window is black.
+
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/SpiderWeb.png)
 
 ## kytice.py

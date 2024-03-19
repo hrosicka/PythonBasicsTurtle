@@ -10,7 +10,7 @@ The application uses the Turtle graphics library to draw the village. The code d
 - **t:** The Turtle object that will be used to draw the house.
 - **velikostDomecku:** The size of the house.
 - **barva:** The color of the house.
-The code then creates a new Turtle object and sets its properties, such as shape, speed, and pen size. The code then uses a for loop to draw 20 houses. For each house, the code generates a random color and size, and then calls the domecek function to draw the house. The application draws a village with 20 houses of different sizes and colors. Houses are arranged in a spiral shape
+The code then creates a new Turtle object and sets its properties, such as shape, speed, and pen size. The code then uses a for loop to draw 20 houses. For each house, the code generates special color and size, and then calls the domecek function to draw the house. The application draws a village with 20 houses of different sizes and colors. Houses are arranged in a spiral shape
 
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/CrazyVillage.png)
 

@@ -1,4 +1,11 @@
 # PythonBasicsTurtle
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Turtle Powered](https://img.shields.io/badge/Turtle-Powered-22c55e?logo=turtle)
+![Last Commit](https://img.shields.io/github/last-commit/hrosicka/PythonBasicsTurtle)
+![Repo Size](https://img.shields.io/github/repo-size/hrosicka/PythonBasicsTurtle)
+![License](https://img.shields.io/github/license/hrosicka/PythonBasicsTurtle)
+![100% Fun](https://img.shields.io/badge/Fun-Guaranteed-yellow?logo=smile)
+
 Dive into a collection of Python Turtle codes that bring your imagination to life on screen. From quaint villages and colorful spider webs to mesmerizing spiral ornaments and enchanting flowers.
 
 - **Villages:** Build your own picturesque village with colorful houses.

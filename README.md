@@ -8,6 +8,27 @@
 
 Dive into a collection of Python Turtle codes that bring your imagination to life on screen. From quaint villages and colorful spider webs to mesmerizing spiral ornaments and enchanting flowers.
 
+# Table of Contents (ToC)
+
+1. [PythonBasicsTurtle](#pythonbasicsturtle)
+2. [crazyvilllage.py](#crazyvilllagepy)
+    - [Application Window](#application-window)
+    - [How It Works](#how-it-works)
+3. [vesnice.py](#vesnicepy)
+    - [Application Window](#application-window-1)
+    - [How It Works](#how-it-works-1)
+4. [pavucina.py](#pavucinapy)
+    - [Application Window](#application-window-2)
+    - [How It Works](#how-it-works-2)
+5. [kytice.py](#kyticepy)
+    - [Application Window](#application-window-3)
+    - [How It Works](#how-it-works-3)
+    - [examples](#examples)
+6. [fialovyornament.py](#fialovyornamentpy)
+7. [modrozelenyornament.py](#modrozelenyornamentpy)
+
+---
+
 - **Villages:** Build your own picturesque village with colorful houses.
 - **Spider Webs:** Weave intricate and colorful webs with randomly generated patterns.
 - **Spirals:** Draw mesmerizing spiral ornaments with vibrant shades of purple.

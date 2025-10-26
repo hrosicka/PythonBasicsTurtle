@@ -34,6 +34,8 @@ Dive into a collection of Python Turtle codes that bring your imagination to lif
 - **Spirals:** Draw mesmerizing spiral ornaments with vibrant shades of purple.
 - **Flowers:** Design a bouquet of captivating flowers with customizable colors and petal shapes.
 
+---
+
 ## crazyvilllage.py
 It provides instructions on how to use the Crazy Village application, which draws a village using the Turtle graphics library.
 ### Application Window
@@ -46,6 +48,8 @@ The application uses the Turtle graphics library to draw the village. The code d
 The code then creates a new Turtle object and sets its properties, such as shape, speed, and pen size. The code then uses a for loop to draw 20 houses. For each house, the code generates special color and size, and then calls the domecek function to draw the house. The application draws a village with 20 houses of different sizes and colors. Houses are arranged in a spiral shape
 
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/CrazyVillage.png)
+
+---
 
 ## vesnice.py
 It provides instructions on how to use the Levitating Village application, which draws a levitating village using the Turtle graphics library.
@@ -60,6 +64,8 @@ The code then creates a new Turtle object and sets its properties, such as shape
 
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/LevitatingVillage.png)
 
+---
+
 ## pavucina.py
 It provides instructions on how to use the Colorful Spider Web application, which draws a colorful spider web using the Turtle graphics library.
 ### Application Window
@@ -68,6 +74,8 @@ The application window displays a colorful spider web with intricate patterns. T
 The application uses the Turtle graphics library to draw the spider web. The code uses a for loop to draw 100 nodes, each of which consists of 3 loops. Each loop draws 4 edges, and the color of each edge is randomly generated. The distance between nodes increases as the web expands, creating a spiral pattern. The background of the window is black.
 
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/SpiderWeb.png)
+
+---
 
 ## kytice.py
 It provides instructions on how to use the Flower application, which draws a flower using the Turtle graphics library.
@@ -95,14 +103,22 @@ The code then creates a new Turtle object and sets its properties, such as speed
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/Flower2.png)
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/Flower3.png)
 
+---
+
 ## fialovyornament.py
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/FialovyOrnament.png)
+
+---
 
 ## modrozelenyornament.py
 ![](https://github.com/hrosicka/PythonBasicsTurtle/blob/master/doc/ModrozelenyOrnament.png)
 
+---
+
 ## Author
 Lovingly crafted by [Hanka Robovska](https://github.com/hrosicka) 👩‍🔬
+
+---
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details. Free to use, modify, and distribute as needed.

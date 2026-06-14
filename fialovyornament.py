@@ -1,8 +1,9 @@
 # nakreslí vesnici pomocí knihovny turtle
-  
+
 from turtle import exitonclick, bgcolor, screensize, title, colormode
 import turtle
 from random import randint
+
 
 def cara(t, strana, barva):
 
@@ -10,7 +11,8 @@ def cara(t, strana, barva):
     t.forward(strana)
     t.left(10)
 
-def main(): 
+
+def main():
 
     # barva pozadí okna
     bgcolor("plum")
@@ -34,7 +36,6 @@ def main():
 
     dilek = 1
 
-
     for _ in range(500):
         # nahodné odstíny fialové
         barva = (randint(55, 155), randint(0, 55), randint(155, 255))
@@ -43,6 +44,7 @@ def main():
 
     # zavření okna
     exitonclick()
+
 
 if __name__ == "__main__":
     main()

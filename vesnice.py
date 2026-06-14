@@ -1,10 +1,11 @@
 # nakreslí vesnici pomocí knihovny turtle
-  
+
 from turtle import exitonclick, bgcolor, screensize, title
 import turtle
 from random import randint, randrange
 import math
 import tkinter
+
 
 def domecek(t, rozmer, fasada):
 
@@ -12,7 +13,7 @@ def domecek(t, rozmer, fasada):
     t.fillcolor(fasada)
     t.begin_fill()
     for _ in range(4):
-        t.forward(8*rozmer)
+        t.forward(8 * rozmer)
         t.right(90)
     t.end_fill()
 
@@ -24,14 +25,14 @@ def domecek(t, rozmer, fasada):
     t.fillcolor("red")
     t.begin_fill()
     for _ in range(3):
-        t.forward(10*rozmer)
+        t.forward(10 * rozmer)
         t.left(120)
     t.end_fill()
 
     t.penup()
-    t.forward(3*rozmer)
+    t.forward(3 * rozmer)
     t.right(90)
-    t.forward(2*rozmer)
+    t.forward(2 * rozmer)
 
     t.pendown()
 
@@ -39,7 +40,7 @@ def domecek(t, rozmer, fasada):
     t.fillcolor("lightblue")
     t.begin_fill()
     for _ in range(4):
-        t.forward(4*rozmer)
+        t.forward(4 * rozmer)
         t.left(90)
     t.end_fill()
 
@@ -48,12 +49,13 @@ def domecek(t, rozmer, fasada):
     # želva se otiskne do rohu okna
     t.stamp()
 
-def main(): 
+
+def main():
 
     # barva pozadí okna
     bgcolor("black")
     # velikost okna
-    screensize(250,250)
+    screensize(250, 250)
     # název okna
     title("Levitating Village")
 
@@ -70,7 +72,6 @@ def main():
     # velikost pera = slabý obrys
     t.pensize(2)
 
-
     # vesnice má 100 domečků
     for _ in range(100):
 
@@ -85,19 +86,20 @@ def main():
         t.pendown()
 
         # náhodně vygenerovaná barva fasády
-        barva = randrange(0,10)/10, randrange(0,10)/10, randrange(0,10)/10
+        barva = randrange(0, 10) / 10, randrange(0, 10) / 10, randrange(0, 10) / 10
 
         # domky blíže k centru mohou být větší, na periferii menší
-        if math.sqrt(pow(x,2) + pow(y,2)) < 200:
-            velikost = randint(8,12)
+        if math.sqrt(pow(x, 2) + pow(y, 2)) < 200:
+            velikost = randint(8, 12)
         else:
-            velikost = randint(4,8)
+            velikost = randint(4, 8)
 
         # zavoláme funkci na vykreslení domečku
         domecek(t, velikost, barva)
-    
+
     # zavření okna
     exitonclick()
+
 
 if __name__ == "__main__":
     main()

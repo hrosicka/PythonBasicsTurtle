@@ -74,7 +74,6 @@ def main():
 
     # vesnice má 100 domečků
     for _ in range(100):
-
         # náhodně určená poloha domku z intervalu
         x = randint(-300, 300)
         y = randint(-300, 300)

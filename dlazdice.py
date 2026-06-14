@@ -1,9 +1,8 @@
 # nakreslí vesnici pomocí knihovny turtle
 
-from turtle import exitonclick, bgcolor, screensize, title, colormode
+from turtle import exitonclick, bgcolor, title, colormode
 import turtle
-from random import randint, randrange
-import math
+from random import randint
 
 
 def dlazdice(t, strana, barva):

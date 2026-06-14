@@ -1,10 +1,8 @@
 # nakreslí vesnici pomocí knihovny turtle
 
-from turtle import exitonclick, bgcolor, title, colormode
+from turtle import exitonclick, bgcolor, title
 import turtle
-from random import randint
 import math
-import turtle
 
 bgcolor("lightblue")
 title("Sine Waves")

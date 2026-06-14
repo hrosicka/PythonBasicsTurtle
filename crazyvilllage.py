@@ -2,10 +2,8 @@
 
 from turtle import exitonclick, bgcolor, title, colormode
 import turtle
-from random import randint
 
-# ze souboru vesnice je potřeba funkce domecek
-from vesnice import *
+from vesnice import domecek
 import tkinter
 
 
@@ -48,7 +46,6 @@ def main():
     velikostDomecku = 3
 
     for _ in range(20):
-
         barva = (red, green, 0)
         posun(t, dilek)
         dilek = dilek + 20

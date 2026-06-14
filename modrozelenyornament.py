@@ -1,9 +1,8 @@
 # nakreslí vesnici pomocí knihovny turtle
 
-from turtle import exitonclick, bgcolor, screensize, title, colormode
+from turtle import exitonclick, bgcolor, title, colormode
 import turtle
 from random import randint
-import math
 
 
 def cara(t, strana, barva):

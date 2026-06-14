@@ -2,7 +2,6 @@
 
 from turtle import exitonclick, bgcolor, title, colormode
 import turtle
-from random import randint
 
 
 def cara(t, strana, barva):

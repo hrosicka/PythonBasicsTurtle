@@ -1,11 +1,13 @@
 # nakreslí vesnici pomocí knihovny turtle
-  
+
 from turtle import exitonclick, bgcolor, title, colormode
 import turtle
 from random import randint
+
 # ze souboru vesnice je potřeba funkce domecek
 from vesnice import *
 import tkinter
+
 
 def posun(t, strana):
 
@@ -14,7 +16,8 @@ def posun(t, strana):
     t.left(60)
     t.pendown()
 
-def main(): 
+
+def main():
 
     # barva pozadí okna
     bgcolor("black")
@@ -31,7 +34,6 @@ def main():
     # Vytvoříme novou želvu
     t = turtle.Turtle()
 
-
     # Želva vypadá jako želva
     t.shape("turtle")
 
@@ -45,7 +47,6 @@ def main():
     green = 0
     velikostDomecku = 3
 
-
     for _ in range(20):
 
         barva = (red, green, 0)
@@ -58,6 +59,7 @@ def main():
 
     # zavření okna
     exitonclick()
+
 
 if __name__ == "__main__":
     main()

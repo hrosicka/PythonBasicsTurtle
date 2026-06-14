@@ -1,9 +1,10 @@
 # nakreslí vesnici pomocí knihovny turtle
-  
+
 from turtle import exitonclick, bgcolor, screensize, title, colormode
 import turtle
 from random import randint, randrange
 import math
+
 
 def dlazdice(t, strana, barva):
 
@@ -20,7 +21,8 @@ def dlazdice(t, strana, barva):
     t.backward(0)
     t.pendown()
 
-def main(): 
+
+def main():
 
     # barva pozadí okna
     bgcolor("black")
@@ -36,7 +38,6 @@ def main():
 
     t.shape("turtle")
 
-    
     # nejrychlejší želva = velmi rychlé kreslení
     t.speed(0)
     # velikost pera = slabý obrys
@@ -55,7 +56,7 @@ def main():
             dlazdice(t, strana, barva)
             t.penup()
             t.right(60)
-            t.forward(2*strana)
+            t.forward(2 * strana)
             t.pendown()
             t.right(60)
         t.left(60)
@@ -63,6 +64,7 @@ def main():
 
     # zavření okna
     exitonclick()
+
 
 if __name__ == "__main__":
     main()

@@ -3,8 +3,7 @@
 from turtle import exitonclick, bgcolor, title, colormode
 import turtle
 
-# ze souboru vesnice je potřeba funkce domecek
-from vesnice import *
+from vesnice import domecek
 import tkinter
 
 

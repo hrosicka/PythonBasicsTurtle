@@ -1,9 +1,10 @@
 # nakreslí vesnici pomocí knihovny turtle
-  
+
 from turtle import exitonclick, bgcolor, screensize, title, colormode
 import turtle
 from random import randint
 import math
+
 
 def cara(t, strana, barva):
 
@@ -11,11 +12,12 @@ def cara(t, strana, barva):
     t.forward(strana)
     t.left(90)
 
-def main(): 
+
+def main():
 
     # barva pozadí okna
     bgcolor("lightblue3")
- 
+
     # název okna
     title("Modrozeleny ornament")
 
@@ -28,7 +30,6 @@ def main():
     # Želva má tvar želvy
     t.shape("turtle")
 
-    
     # nejrychlejší želva = velmi rychlé kreslení
     t.speed(0)
     # velikost pera = silný obrys
@@ -45,6 +46,7 @@ def main():
 
     # zavření okna
     exitonclick()
+
 
 if __name__ == "__main__":
     main()

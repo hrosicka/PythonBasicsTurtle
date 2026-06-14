@@ -46,7 +46,6 @@ def main():
     velikostDomecku = 3
 
     for _ in range(20):
-
         barva = (red, green, 0)
         posun(t, dilek)
         dilek = dilek + 20

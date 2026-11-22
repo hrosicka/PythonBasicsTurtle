@@ -1,10 +1,38 @@
 # PythonBasicsTurtle
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Turtle Powered](https://img.shields.io/badge/Turtle-Powered-22c55e?logo=turtle)
-![Last Commit](https://img.shields.io/github/last-commit/hrosicka/PythonBasicsTurtle)
-![Repo Size](https://img.shields.io/github/repo-size/hrosicka/PythonBasicsTurtle)
-![License](https://img.shields.io/github/license/hrosicka/PythonBasicsTurtle)
-![100% Fun](https://img.shields.io/badge/Fun-Guaranteed-yellow?logo=smile)
+
+<div align="center">
+
+  <a href="https://github.com/hrosicka/PythonBasicsTurtle/stargazers">
+    <img src="https://img.shields.io/github/stars/hrosicka/PythonBasicsTurtle?style=for-the-badge&color=4F8EF7&logo=starship&logoColor=white" alt="Stars" />
+  </a>
+  <a href="https://github.com/hrosicka/PythonBasicsTurtle/network/members">
+    <img src="https://img.shields.io/github/forks/hrosicka/PythonBasicsTurtle?style=for-the-badge&color=4F8EF7&logo=git&logoColor=white" alt="Forks" />
+  </a>
+  <a href="https://github.com/hrosicka/PythonBasicsTurtle/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/hrosicka/PythonBasicsTurtle?style=for-the-badge&color=4F8EF7&logo=github&logoColor=white" alt="Contributors" />
+  </a>
+  <a href="https://github.com/hrosicka/PythonBasicsTurtle/commits/main">
+    <img src="https://img.shields.io/github/last-commit/hrosicka/PythonBasicsTurtle?style=for-the-badge&color=6366F1&logo=githubactions&logoColor=white" alt="Last Commit" />
+  </a>
+  <a href="https://github.com/hrosicka/PythonBasicsTurtle/issues">
+    <img src="https://img.shields.io/github/issues/hrosicka/PythonBasicsTurtle?style=for-the-badge&color=F59E0B&logo=github&logoColor=white" alt="Issues" />
+  </a>
+  <br/>
+
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=FFE873" alt="Python" />
+  </a>
+  <img src="https://img.shields.io/badge/Turtle-Powered-22C55E?style=for-the-badge&logo=python&logoColor=white" alt="Turtle Powered" />
+  <img src="https://img.shields.io/badge/Graphics-Creative%20Coding-EC4899?style=for-the-badge&logo=game-developer&logoColor=white" alt="Creative Coding" />
+  <img src="https://img.shields.io/badge/Fun-Guaranteed-F59E0B?style=for-the-badge&logo=sparkles&logoColor=white" alt="Fun Guaranteed" />
+  <img src="https://img.shields.io/github/repo-size/hrosicka/PythonBasicsTurtle?style=for-the-badge&color=3B82F6&logo=files&logoColor=white" alt="Repo Size" />
+  <br/>
+
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/hrosicka/PythonBasicsTurtle?style=for-the-badge&color=10B981&logo=opensourceinitiative&logoColor=white" alt="License" />
+  </a>
+
+</div>
 
 Dive into a collection of Python Turtle codes that bring your imagination to life on screen. From quaint villages and colorful spider webs to mesmerizing spiral ornaments and enchanting flowers.
 
